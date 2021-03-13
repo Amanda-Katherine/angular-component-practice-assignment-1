@@ -4,7 +4,13 @@ import { Component } from '@angular/core'
     selector: 'app-warning',
     template: `
     <p>Example warning message.</p>`,
-    styleUrls: ['./warning.component.css']
+    styles: [`
+    p {
+        padding: 20px;
+        background-color: mistyrose;
+        border: 1px solid red
+    }
+    `]
 })
 
 export class WarningComponent {
